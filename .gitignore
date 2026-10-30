@@ -1,0 +1,72 @@
+# ======================================
+# JUPITER - Git Ignore
+# ======================================
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Build and packaging files
+build/
+dist/
+*.egg-info/
+
+# Private settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local databases, logs and caches
+*.db
+*.sqlite
+*.sqlite3
+*.log
+**/logs/
+
+# Known generated JUPITER runtime data
+/data/jupiter_memory.db
+/data/notes.md
+/data/notes-*.md
+/data/sandbox/
+/data/explainer/cache/
+/data/explainer/html/
+/data/tts_*.wav
+/data/hand_landmarker.task
+
+/jupiter/data/jupiter_memory.db
+/jupiter/data/notes.md
+/jupiter/data/notes-*.md
+/jupiter/data/sandbox/
+/jupiter/data/explainer/cache/
+/jupiter/data/explainer/html/
+/jupiter/data/tts_*.wav
+/jupiter/data/hand_landmarker.task
+
+# Generated camera test image
+/camera_test.jpg
+
+# Accidental local configuration/export file
+/$envANTHROPIC_MODEL=autobest-free.txt
+
+# Editors and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# External Piper voice models
+# Download separately; do not redistribute without permission
+*.onnx
+*.onnx.json

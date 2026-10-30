@@ -1,0 +1,25 @@
+faster-whisper
+sounddevice
+numpy
+piper-tts
+requests
+pywhatkit
+psutil
+pyperclip
+dateparser
+pycaw
+comtypes
+pyspellchecker
+pytest
+ruff
+PySide6
+argostranslate
+pillow
+pyautogui
+# --- 3D Explainer / webcam ---
+# No extra packages are required: the 3D viewer is bundled (works offline) and PySide6 already includes
+# QtWebEngine (3D view window) and QtMultimedia (webcam preview).
+# Optional (console-mode webcam fallback only):   pip install opencv-python
+# --- Hand-gesture control (webcam) ---
+opencv-python
+mediapipe          # newer versions download a 7 MB hand model on first use; "mediapipe==0.10.21" bundles it (fully offline)

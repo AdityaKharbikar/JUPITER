@@ -1,0 +1,76 @@
+{
+  "coding mode": {
+    "aliases": [
+      "coding mode",
+      "coding workspace",
+      "developer mode",
+      "code mode"
+    ],
+    "intro": "Starting your coding workspace.",
+    "steps": [
+      {
+        "action": "open_app",
+        "value": "vs code"
+      },
+      {
+        "action": "open_url",
+        "value": "https://docs.python.org/3/"
+      },
+      {
+        "action": "open_app",
+        "value": "powershell"
+      },
+      {
+        "action": "command",
+        "value": "system stats"
+      }
+    ],
+    "outro": "Coding mode is ready."
+  },
+  "study mode": {
+    "aliases": [
+      "study mode",
+      "study session",
+      "focus mode"
+    ],
+    "intro": "Starting a fifty minute study session.",
+    "steps": [
+      {
+        "action": "command",
+        "value": "set a timer for 50 minutes"
+      },
+      {
+        "action": "open_app",
+        "value": "notepad"
+      },
+      {
+        "action": "open_url",
+        "value": "https://www.google.com"
+      }
+    ],
+    "outro": "Study mode is on. I will tell you when the fifty minutes are up."
+  },
+  "presentation mode": {
+    "aliases": [
+      "presentation mode",
+      "presentation",
+      "demo mode"
+    ],
+    "intro": "Preparing for your presentation.",
+    "steps": [
+      {
+        "action": "open_app",
+        "value": "powerpoint"
+      },
+      {
+        "action": "command",
+        "value": "set a timer for 15 minutes"
+      },
+      {
+        "action": "command",
+        "value": "system stats"
+      }
+    ],
+    "outro": "Presentation mode is ready. Good luck."
+  }
+}
